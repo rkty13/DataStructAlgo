@@ -1,8 +1,7 @@
 #include <iostream>
 #include "PNode.h"
 
-/* Get the successor Node in-order */
-
+/* Get the successor PNode in-order. */
 PNode * successor(PNode *x) {
     if (x->right) {
         x = x->right;

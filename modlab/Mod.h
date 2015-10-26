@@ -3,7 +3,7 @@
  
     For now, if the user attempts to divide by zero or set the modulus to something < 2, you can just "fail fast" with exit(-1).
  
-    DUE: September 22, 2014 (by midnight!)
+    DUE: September 22, 2015 (by midnight!)
 */
 
 #ifndef ____Mod__

@@ -1,8 +1,7 @@
 #include <iostream>
 #include "BNode.h"
 
-/* Reconstructs a binary tree given a pre-order and in-order */
-
+/* Reconstructs a binary tree given a pre-order and in-order representation of the tree. */
 BNode * reconstruct(const std::vector<int> pre, const std::vector<int> in) {
 	BNode *root = new BNode(pre[0]);
 	if (pre.size() == 1) {
