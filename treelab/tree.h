@@ -85,6 +85,7 @@ public:
         It(const It& i);
         ~It();
         
+        static void calc_sub_size(It i);
         double& operator*() const;
         It operator++(int);     // Post-increment
         It& operator++();       // Pre-increment
